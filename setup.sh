@@ -20,5 +20,5 @@ for script in "$(dirname "$0")"/tools/*.sh; do
 done
 
 if [ ${#installed[@]} -ne 0 ]; then
-  echo "Installation process finished, CLI tools installed: $installed"
+  echo "Installation process finished, CLI tools installed: ${installed[@]}"
 fi
