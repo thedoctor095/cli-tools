@@ -14,4 +14,4 @@
 Run ```./setup.sh``` in a terminal shell.
 
 ### Dependencies 
-In order to install all of the above tools you must have [**Rust**](https://www.rust-lang.org/tools/install) & [**Cargo package manager**](https://doc.rust-lang.org/cargo/) installed.
+In order to install all of the above tools you must have [**Rust**](https://www.rust-lang.org/tools/install) & [**Cargo package manager**](https://doc.rust-lang.org/cargo/) installed & up to date.
