@@ -1,5 +1,5 @@
 CMD="btm"
 
 run_install() {
-  cargo install bottom --locked
+  cargo install bottom
 }

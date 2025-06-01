@@ -1,5 +1,5 @@
 CMD="bandwhich"
 
 run_install() {
-  cargo install bandwhich --locked
+  cargo install bandwhich
 }

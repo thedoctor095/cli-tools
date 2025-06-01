@@ -1,5 +1,5 @@
 CMD="exa"
 
 run_install() {
-  cargo install exa --locked
+  cargo install exa
 }

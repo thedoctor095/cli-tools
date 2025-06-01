@@ -1,5 +1,5 @@
 CMD="procs"
 
 run_install() {
-  cargo install procs --locked
+  cargo install procs
 }

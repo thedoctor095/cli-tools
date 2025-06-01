@@ -1,5 +1,5 @@
 CMD="tokei"
 
 run_install() {
-  cargo install tokei --locked
+  cargo install tokei
 }
