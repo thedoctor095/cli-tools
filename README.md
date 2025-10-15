@@ -11,7 +11,7 @@
 9. [**Tokei**](https://github.com/XAMPPRocky/tokei) -  Tokei is a program that displays statistics about your code. Tokei will show the number of files, total lines within those files and code, comments, and blanks grouped by language.
 
 ### How to install
-Run ```./setup.sh``` in a terminal shell.
+Run ```./setup_binaries.sh``` in a terminal shell.
 
 ### Dependencies 
 In order to install all of the above tools you must have [**Rust**](https://www.rust-lang.org/tools/install) & [**Cargo package manager**](https://doc.rust-lang.org/cargo/) installed & up to date.
