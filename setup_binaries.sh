@@ -6,7 +6,7 @@ source "$(dirname "$0")"/common.sh;
 check_rust_install
 
 installed=()
-for script in "$(dirname "$0")"/tools/*.sh; do
+for script in "$(dirname "$0")"/bins/*.sh; do
   source "$script"
   if ! is_installed "$CMD"; then
     echo "Installing $CMD"
@@ -21,4 +21,6 @@ done
 
 if [ ${#installed[@]} -ne 0 ]; then
   echo "Installation process finished, CLI tools installed: ${installed[@]}"
+else
+  echo "All CLI tools already installed"
 fi

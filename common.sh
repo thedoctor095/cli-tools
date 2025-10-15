@@ -3,7 +3,7 @@ check_rust_install() {
     echo "Cargo not installed, Rust's package manager is required before installing any Rust-based CLI tools.."
     exit 0
   else
-    echo "Cargo version $(cargo --version) found, proceeding with installation.."
+    echo "Found $(cargo --version)"
   fi
 }
 
